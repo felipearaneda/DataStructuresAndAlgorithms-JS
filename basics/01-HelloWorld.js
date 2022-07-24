@@ -1,4 +1,4 @@
-alert('Hello, World!');
+console.log('Hello, World!');
 
 var num = 1;
 num = 3;
@@ -15,7 +15,6 @@ console.log("trueValue: "+ trueValue);
 console.log("price: "+ price);
 console.log("nullvar: "+ nullVar);
 console.log("und: "+ und);
-
 
 //variable scope
 
@@ -48,6 +47,8 @@ num = num / 2;
 num ++;
 num --;
 
+console.log(typeof num);
+
 num += 1;
 num -= 2;
 num *= 3;
@@ -65,6 +66,10 @@ console.log('num <= 1 : ' + (num <= 1));
 console.log('true && false : ' + (true && false)); // {4}
 console.log('true || false : ' + (true || false));
 console.log('!true : ' + (!true));
+
+console.log('packt' ? true : false);
+
+console.log('packt' == true);
 
 /* 
     Arithmetic operator
